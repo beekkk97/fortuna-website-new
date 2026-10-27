@@ -118,6 +118,6 @@
       <div className="footer-bottom wrap"><span>© {new Date().getFullYear()} Fortuna GmbH. {t.footer}</span><div><a href="#kontakt">{t.imprint}</a><a href="#kontakt">{t.privacy}</a></div></div>
     </footer>
   </div>;
-}
+
 
 createRoot(document.getElementById('root')).render(<React.StrictMode><App/></React.StrictMode>);
